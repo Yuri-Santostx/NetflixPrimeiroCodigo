@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.tela_principal {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.tela_principal img{
+    width: 200px;
+}
+.tela_principal header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header button{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    border: none;
+}
+.header button:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.header .butons .seletor{
+    background-color: transparent;
+    border: 3px solid white;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 6px;
+}
+.textos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 80px;
+    margin-top: 100px;
+}
+.textos h1{
+    font-size: 50px;
+    width: 1000px;
+    
+}
+.textos span{
+    margin-left: 350px;
+}
+.textos p{
+    font-size: 22px;
+}
+.textos .paragrafo_email{
+    font-size: 18px;
+}
+.nexteler{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.nexteler input[type=email]{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    width: 350px;
+    color: white;
+}
+.nexteler button{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 3px;
+    padding: 12px;
+    border: none;
+    width: 120px;
+}
+.baner{
+    background: radial-gradient(
+    51.39% 511.66% at 47.68% -217.91%,
+    #ff9900 0%,
+    #e50914 17.27%,
+    #0e1b4f 79.44%,
+    #000413 100%);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 3px;
+    justify-content: center;
+}
+.pipoca img{
+    width: 130px;
+}
+.baner .textos{
+    margin-top: 35px;
+}
+.Televisao{
+    color: white;
+    margin-top: 45px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+}
+.Televisao img{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.Televisao h2{
+    font-size: 50px;
+}
+.Televisao p{
+    color: white;
+    font-size: 19px;
+}
+.linha {
+    background-color: rgb(65, 65, 65);
+    height: 7px;
+    margin: 10px 0;
+    border: none;
+}
+.Televisa_2{
+    display:flex ;
+    align-items: center;
+    gap: 40px;
+}
+.Televisa_2 .textos_2{
+    color: white;
+    font-size: 40px;
+}
+.textos_2 p{
+    font-size: 25px;
+}
+.Televisa_2 img{
+    width: 450px;
+    margin-left: 250px;
+}
+.desenho_animado{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 300px;
+}
+.textos_3{
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.textos_3 p{
+    font-size: 25px;
+    width: 440px;
+}
+.desenho_animado img{
+    width: 500px;
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.mobile img{
+    width: 400px;
+}
+.texto_mobile{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.texto_mobile p{
+    font-size: 25px;
+}
+.perguntas_frequentes{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+}
+.perguntas{
+    color: white;
+    background-color: rgba(84, 83, 83, 0.4);
+    padding: 30px;
+    border-radius: 5px;
+}
+.perg{
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.perg p{
+    font-size: 25px;
+}
+.perguntas:hover{
+    background-color: rgb(56, 56, 56);
+}
+.assinatura_perg{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 30px;
+}
+.assinatura{
+    text-align: center;
+    margin-top: 20px;
+}
+.assinatura input[type=email]{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    width: 350px;
+    color: white;
+}
+.assinatura button{
+    background-color: red;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links li{
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 10px;
+}
+.links a{
+    color: grey;
+}
+.links a:hover{
+    color: white;
+}
+.duvida p{
+    color: grey;
+    margin-left: 168px;
+}
+.duvida a{
+    color: grey;
+}
+.seletor{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid white;
+    color: white;
+    padding: 8px;
+    width: 150px;
+    margin-left: 165px;
+    padding-top: 10px;
+}
+.seletor_final p{
+    color: white;
+    margin-left: 168px;
+}
